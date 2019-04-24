@@ -30,7 +30,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Víctor Rubio</a>
+          <a class="navbar-brand" href="#">Victor Rubio</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -52,10 +52,8 @@
     </div><!-- /.container -->
 
 	<div class="container">
-
 		<h2 class="color"> Clicar per veure com funciona el javascript / jquery</h2>
 		<button onclick ="myFunction()">Modificar color</button>
-		
 	</div>
 		
 		<style>
@@ -76,19 +74,19 @@
      function myFunction() {
 		
 		$(".modificar_color").on("mouseover", function() {
-                $(this).css("background-color", "purple");
-				$(this).css("color", "white")
-				$(this).css("font-size","250%");
+                $(this).css("background-color", "cyan");
+				$(this).css("color", "red");
+				$(this).css("font-size","300%");
             }).on("mouseout", function() {
-                  $(this).css("background-color", "red");
-				  $(this).css("color", "black");
-				  $(this).css("font-size","200%");
+                  $(this).css("background-color", "yellow");
+				  $(this).css("color", "pink");
+				  $(this).css("font-size","250%");
             });
 		$(".color").on("mouseover", function() {
-                $(this).css("background-color", "black");
+                $(this).css("background-color", "pink");
 				$(this).css("color", "white");
 			}).on("mouseout", function() {
-                  $(this).css("background-color", "yellow");
+                  $(this).css("background-color", "purple");
 				  $(this).css("color", "black");
             });
       }
